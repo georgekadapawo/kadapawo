@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+     android:orientation="vertical"
+
+    android:background="@color/white"
+    android:layout_marginLeft="30dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kadapawo george"
+        android:textColor="@color/purple_200"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kads"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOBBIES:"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.playing football"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+
+
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Eating"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Fighting"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Jumping"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        />
+
+</LinearLayout>
